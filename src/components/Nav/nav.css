@@ -1,0 +1,30 @@
+nav {
+  background-color: var(--cinza-claro);
+  border-bottom: 1px solid var(--cinza-borda);
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a {
+  color: var(--preto);
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.menu a:hover {
+  color: var(--laranja);
+  transition: 0.4s;
+}
