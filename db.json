@@ -49,14 +49,7 @@
       "imagem": "sandalia.jpg"
     }
   ],
-  "clientes": [
-    {
-      "nome": "Pedro",
-      "telefone": "123123123",
-      "email": "dsadas@gmail.com",
-      "id": "34ybdvOgUJ0"
-    }
-  ],
+  "clientes": [],
   "faq": [
     {
       "id": "1",
