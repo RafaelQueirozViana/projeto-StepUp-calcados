@@ -1,0 +1,105 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Tênis Runner Pro",
+      "categoria": "Tênis",
+      "preco": 299.9,
+      "descricao": "Leve e com amortecimento ideal para corridas diárias.",
+      "imagem": "tenis-corrida.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "Tênis Urban Casual",
+      "categoria": "Tênis",
+      "preco": 249.9,
+      "descricao": "Estilo casual para usar no dia a dia com muito conforto.",
+      "imagem": "tenis-casual.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "Tênis Skate Classic",
+      "categoria": "Tênis",
+      "preco": 219.9,
+      "descricao": "Solado reforçado e visual clássico para quem anda de skate.",
+      "imagem": "tenis-skate.jpg"
+    },
+    {
+      "id": "4",
+      "nome": "Sapato Social Oxford",
+      "categoria": "Sapatos",
+      "preco": 359.9,
+      "descricao": "Couro legítimo, perfeito para o trabalho e eventos formais.",
+      "imagem": "sapato-social.jpg"
+    },
+    {
+      "id": "5",
+      "nome": "Bota Couro Trail",
+      "categoria": "Botas",
+      "preco": 429.9,
+      "descricao": "Resistente e confortável para trilhas e uso urbano.",
+      "imagem": "bota-couro.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "Sandália Comfort",
+      "categoria": "Sandálias",
+      "preco": 129.9,
+      "descricao": "Palmilha macia e design moderno para os dias quentes.",
+      "imagem": "sandalia.jpg"
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "Pedro",
+      "telefone": "123123123",
+      "email": "dsadas@gmail.com",
+      "id": "34ybdvOgUJ0"
+    }
+  ],
+  "faq": [
+    {
+      "id": "1",
+      "pergunta": "Qual o prazo de entrega?",
+      "resposta": "O prazo varia de 3 a 10 dias úteis, dependendo da sua região."
+    },
+    {
+      "id": "2",
+      "pergunta": "Posso trocar o produto?",
+      "resposta": "Sim, você tem até 30 dias após o recebimento para solicitar a troca."
+    },
+    {
+      "id": "3",
+      "pergunta": "Como escolher o tamanho certo?",
+      "resposta": "Meça o comprimento do seu pé em centímetros e compare com a nossa tabela de medidas."
+    },
+    {
+      "id": "4",
+      "pergunta": "Quais as formas de pagamento?",
+      "resposta": "Aceitamos cartão de crédito, Pix e boleto bancário."
+    }
+  ],
+  "topicos": [
+    {
+      "id": "1",
+      "titulo": "Quem somos",
+      "paragrafo": "A StepUp nasceu da paixão por calçados que unem estilo, qualidade e conforto. Trabalhamos com as melhores marcas e modelos para todos os gostos."
+    },
+    {
+      "id": "2",
+      "titulo": "Nossa missão",
+      "paragrafo": "Oferecer o par perfeito para cada passo da sua jornada, com atendimento próximo e preço justo."
+    },
+    {
+      "id": "3",
+      "titulo": "Nossos produtos",
+      "paragrafo": "Tênis esportivos e casuais, sapatos sociais, botas e sandálias para homens e mulheres de todas as idades."
+    },
+    {
+      "id": "4",
+      "titulo": "Nossos diferenciais",
+      "paragrafo": "Troca facilitada, entrega rápida, produtos selecionados e suporte em todas as etapas da compra."
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
