@@ -1,0 +1,41 @@
+.header {
+  background-color: var(--preto);
+  padding: 20px;
+  border-bottom: 4px solid var(--laranja);
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title-centro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-top: 5px;
+  color: var(--laranja);
+}
+
+.img-logo {
+  width: 100px;
+}
+
+.text-marcado {
+  color: var(--laranja);
+}
