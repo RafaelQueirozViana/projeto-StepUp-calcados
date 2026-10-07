@@ -1,0 +1,36 @@
+.titulo-home {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 28px;
+  color: #222;
+}
+
+.filtros {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.filtro {
+  padding: 8px 18px;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 20px;
+  background: #ffffff;
+  color: var(--preto);
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filtro:hover {
+  border-color: var(--laranja);
+  color: var(--laranja);
+}
+
+.filtro.ativo {
+  background: var(--laranja);
+  border-color: var(--laranja);
+  color: #ffffff;
+}
