@@ -1,0 +1,32 @@
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.notfound-title {
+  font-size: 44px;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.notfound-text {
+  font-size: 20px;
+  color: var(--cinza-texto);
+  margin-bottom: 30px;
+}
+
+.notfound-link {
+  font-size: 16px;
+  color: var(--preto);
+  text-decoration: none;
+  border-bottom: solid 2px var(--laranja);
+}
+
+.notfound-link:hover {
+  color: var(--laranja);
+}
