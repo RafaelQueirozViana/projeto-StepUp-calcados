@@ -1,0 +1,33 @@
+.container-sobre {
+  padding: 50px 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 35px;
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 35vh;
+}
+
+.topico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.topico h1 {
+  font-size: 26px;
+  color: #222;
+  border-bottom: 3px solid var(--laranja);
+  padding-bottom: 6px;
+}
+
+.topico p {
+  color: var(--cinza-texto);
+  line-height: 1.7;
+  max-width: 700px;
+}
