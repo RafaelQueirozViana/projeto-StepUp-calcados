@@ -31,9 +31,7 @@ export default function index() {
     <main className="container">
       <h1 className="titulo-home">Nossos produtos</h1>
 
-      <div>
-        <img src="../../assets/images/banner.jpg" />
-      </div>
+
 
       <div className="filtros">
         {categorias.map((cat) => (
